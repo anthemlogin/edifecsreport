@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="https://github.com/anthemlogin/edifecsreport/blob/main/style.css">
+<link rel="stylesheet" href="style.css">
 <!-- <link rel="stylesheet" href="extent.css">  -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
 <head>
@@ -16,25 +16,25 @@
 
 
 <div class="header">
-<img src="https://github.com/anthemlogin/edifecsreport/tree/main/imgs/logo.png" style="width: 126px; height: 50px; margin-right: 1150px; ">
+<img src="imgs/logo.png" style="width: 126px; height: 50px; margin-right: 1150px; ">
  
    <p align="center" ><b>Edifecs Test Automation - Smoke Test Results</b> </p> 
-<p class="edifecsimg"><img src="https://github.com/anthemlogin/edifecsreport/tree/main/imgs/edifecs.png" style="width: 120px; height: 41px; margin-left: 600px; margin-top: -3px;  "> </p>
+<p class="edifecsimg"><img src="imgs/edifecs.png" style="width: 120px; height: 41px; margin-left: 600px; margin-top: -3px;  "> </p>
 
 </div>
 
 <div class="menu-bar">
 <ul>
   
-  <li ><a href="C:\Users\Public\Test Report\WebContent\Summary_TestReport.html">	SUMMARY </a></li>  
-   <li ><a href="C:\Users\Public\Test Report\WebContent\TestReport.html">  ENVIRONMENT  </a> </li> 
+  <li ><a href="TestReport_Summary.html">	SUMMARY </a></li>  
+   <li ><a href="TestReport.html">  ENVIRONMENT  </a> </li> 
   <!--
   <li onclick="getId();"> 
   		<select  id="env" >
-  				<option value="">ENVIRONMENT..</option>
-  				<option value="C:\Users\AH23762\IE Compares\Test Report\WebContent\TestReport.html"> SIT </option>
-  				<option value="C:\Users\AH23762\IE Compares\Test Report\WebContent\TestReport.html"> UAT </option>
-  				<option value="C:\Users\AH23762\IE Compares\Test Report\WebContent\TestReport.html"> PRE_PROD </option>
+  				<option value="">ENVIRONMENT</option>
+  				<option value="TestReport.html"> SIT </option>
+  				<option value="TestReport.html"> UAT </option>
+  				<option value="TestReport.html"> PRE_PROD </option>
   			</select>
   			
   
@@ -65,7 +65,7 @@
  <div class="main">
  		<div class="sidemenu">
  				<a>
- 				<label class="sidetitle">MARKETS <img src="https://github.com/anthemlogin/edifecsreport/tree/main/imgs/down-arrow.png" style="width: 21px; height: 17px; "></label></a>
+ 				<label class="sidetitle">MARKETS <img src="imgs/down-arrow.png" style="width: 21px; height: 17px; "></label></a>
  				<a id="link" href="#">AR</a>
  				<a href="#">CA</a>
  				<a href="#"  >MAO</a>
@@ -110,9 +110,9 @@
  		 <label id="txtvalue" style="height: 17px; width:30px;">
  		 <select  id="env" >
   				<!--  <option value="">ENVIRONMENT..</option> -->
-  				<option value="C:\Users\Public\Test Report\WebContent\TestReport.html"> SIT </option>
-  				<option value="C:\Users\Public\Test Report\WebContent\TestReport.html"> UAT </option>
-  				<option value="C:\Users\Public\Test Report\WebContent\TestReport.html"> PRE_PROD </option>
+  				<option value="TestReport.html"> SIT </option>
+  				<option value="TestReport.html"> UAT </option>
+  				<option value="TestReport.html"> PRE_PROD </option>
   			</select>
  		 </label>
  		 
@@ -155,7 +155,7 @@
 	i.src = i.src;
 	*/
 	
-	var link1 = "C:\\Users\\Public\\Test Report\\WebContent\\" + env +"\\" + this.innerText +"_ EdifecsReport.html";
+	var link1 = env +"\\" + this.innerText +"_ EdifecsReport.html";
 	/* document.getElementById("demo1").innerHTML=link1; */
 	
 	document.getElementById("iframeid").src = link1;
