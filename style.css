@@ -12,6 +12,7 @@ body {
 	width:auto;
 	height:50px;
 	margin-right:500px;
+	display: flex;
 }
 
 /* Header/Logo Title */
@@ -225,7 +226,7 @@ width: 93%;
     margin-right: 20px;
     left: 170px;
     border:none;
-	display: flex;
+display: flex;
 
 }
 .container {
