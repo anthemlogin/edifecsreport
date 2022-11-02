@@ -58,7 +58,7 @@ body {
 }
 
 .menu-bar ul li{
-	width: 120px;
+	width: 70px;
 	margin: 10px;
 	margin-left:50px;
 	padding: 0;
@@ -148,8 +148,8 @@ div.release{
 	height:60px;
 	margin-top:-12px;
 	display:none;
-	margin-left:200px;
-	width: 239px; 
+	margin-left:840px;
+	width: 200px; 
 	display:block;
 }
 div.release p{
