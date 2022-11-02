@@ -8,7 +8,7 @@ body {
   background-size: cover;
   width:100%;
 }
-.logo .img{
+.logo img{
 	width:auto;
 	height:50px;
 	margin-right:500px;
@@ -37,7 +37,7 @@ body {
 .edifecsimg img{
 	width: 120px;
     height: 41px;
-    margin-left: 600px;
+    margin-left: 1000px;
     margin-top: -60px;
 }
 
@@ -219,7 +219,7 @@ th, tr, td {
 }
 
 iframe{
-width: 93%;
+width: 85%;
     height: 120vh;
     position: absolute;
     margin-top: 40px;
