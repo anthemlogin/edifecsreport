@@ -217,6 +217,9 @@ th, tr, td {
 .tctable{
 	width:100%;
 }
+tr.tctabletr{
+	
+}
 
 iframe{
 width: 85%;
