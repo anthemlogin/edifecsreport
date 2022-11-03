@@ -53,34 +53,28 @@ body {
 	list-style: none;
 	color: white;
 	font-family: sans-serif;
-	margin-left: 200px;
-    
-    width:100px;
+	margin-left: 200px;    
+    	width:100px;
 }
 
-.menu-bar ul.list> li{
+.menu-bar ul.list > li{
 	
-    margin-top: 8px;
-   
+    margin-top: 8px;   
 }
 
 
 .menu-bar ul > li{
-	width: 100px;
-	
+	width: 100px;	
 	margin-left:50px;
 	padding: 0;
 	margin-right:70px;
 	color:black;
 	font-weight: bold;
-	
-	
-	
+		
 }
 .menu-bar ul > li.list{
 	
-	margin-top:-5px;
-	
+	margin-top:-5px;	
 }
 
 .menu-bar ul li a{
@@ -157,14 +151,12 @@ body {
 	
 	background-color:none;
 	transition:0.5s;
-	
 }
 
 
-ul.releaseplan {
-	
-	    margin-left: 80%;
-    color: white;
+ul.releaseplan {	
+	margin-left: 80%;
+    	color: white;
 }
 
 p.para{
@@ -230,14 +222,14 @@ th, tr, td {
     margin-left: -280px;
 }
 .tctable{
-	width:93%;
+	width:100%;
 }
 tr.tctabletr{
 	border: ridge;	
 }
 
 iframe{
-width: 85%;
+width: 93%;
     height: 120vh;
     position: absolute;
     margin-top: 40px;
@@ -248,7 +240,7 @@ display: flex;
 
 }
 .container {
-    width: 120%;
+    width: 100%;
     max-width: none;
     padding-left: 10px;
  }
