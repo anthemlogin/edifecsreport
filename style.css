@@ -229,12 +229,11 @@ tr.tctabletr{
 }
 
 iframe{
-width: 86.6%;
+    width: 86.6%;
     height: 120vh;
     position: absolute;
     margin-top: 40px;
-    margin-right: 20px;
-    
+    margin-left: 13px;
     border:none;
 display: flex;
 
