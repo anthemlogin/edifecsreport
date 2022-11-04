@@ -402,16 +402,17 @@ margin-top:100px;
 
 /* -- [ container ] -- */
 .container {
-    width: 100%;
+    width: 95%;
     max-width: none;
     padding-left: 10px;
  }
 
 /* -- [ views ] -- */
 .view {
-	width: 100%;
+	width: 95%;
 	display: table;
 	border:none;
+	margin-left: 15px;
 	
 }
 .subview-left, .subview-right {
