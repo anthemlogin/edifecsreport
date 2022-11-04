@@ -239,8 +239,13 @@ width: 86.6%;
 display: flex;
 
 }
+.view {
+    width: 95%;
+    display: table;
+    border: none;
+}
 .container {
-    width: 100%;
+    width: 95%;
     max-width: none;
     padding-left: 10px;
  }
