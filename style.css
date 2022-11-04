@@ -34,6 +34,9 @@ body {
 	margin-top: -45px;
 	margin-left: 300px;
 }
+.header .edifecsimg{
+	right:30px;
+}
 .edifecsimg img{
 	width: 120px;
     height: 41px;
