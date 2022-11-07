@@ -149,7 +149,8 @@ body {
 	color: #1e1e1b;
     font-weight: bold;
 }
-.sidetitle:hover{	
+.sidetitle:hover{
+	color: #1e1e1b;
     font-weight: bold;
 }
 .sidemenu.sidetitle:hover{
